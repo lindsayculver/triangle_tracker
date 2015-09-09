@@ -34,13 +34,13 @@ $(document).ready(function() {
     var result_scalene = scalene(side1, side2, side3);
 
     if (result_equilateral) {
-      $(".triangle-type").text("equilateral");
+      $(".triangle-type").text("Equilateral");
     } else if (result_isosceles) {
-      $(".triangle-type").text("isosceles");
+      $(".triangle-type").text("Isosceles");
     } else if (result_scalene) {
-      $(".triangle-type").text("scalene");
+      $(".triangle-type").text("Scalene");
     } else {
-      $(".triangle-type").text("impossible");
+      $(".triangle-type").text("Not a Triangle");
     }
 
   $("#result").show();

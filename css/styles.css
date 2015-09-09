@@ -1,3 +1,42 @@
 #result {
   display: none;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-image: url(images/triangles.jpg)
+}
+
+h1 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  padding: 10px;
+}
+
+.form-group {
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+}
+
+.button {
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+}
+
+.explainer {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
